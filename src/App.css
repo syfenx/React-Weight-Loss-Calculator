@@ -1,0 +1,68 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #000000;
+  background: url("./images/bg.jpg");
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+input {
+  padding: 10px;
+  color: #fff !important;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.295);
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.box {
+  background-color: rgba(34, 34, 34, 0.918);
+  padding: 10px;
+  border: 1px solid #444;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+h2 {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #555;
+}
+p {
+  font-size: 16px;
+}
+.gridbox {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+}
+.grid2col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+.MuiFormLabel-root {
+  color: white !important;
+}
+.warning {
+  color: rgb(247, 64, 64);
+}
+.results p {
+  font-size: 20px;
+}
+.MuiRadio-root {
+  color: rgb(148, 96, 238) !important;
+}
